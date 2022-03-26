@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
-import './index.css';
+import App from '/src/App';
+import '/src/index.css';
 
-const app = <img src='/logo.svg' />;
 const container = document.getElementById('root');
 
-ReactDOM.render(app, container);
+ReactDOM.render(<App />, container);
