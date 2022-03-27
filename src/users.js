@@ -1,13 +1,18 @@
 const users = [
 	{
 		name: 'Pablo Castellanos',
-		role: 'Profesor',
+		role: 'teacher',
 		active: true
 	},
 	{
 		name: 'Jose Miguel Fernandez',
-		role: 'Profesor',
+		role: 'teacher',
 		active: true
+	},
+	{
+		name: 'Javier López',
+		role: 'student',
+		active: false
 	}
 ];
 
